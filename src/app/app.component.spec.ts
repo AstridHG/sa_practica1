@@ -26,5 +26,20 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('Practica1');
   });
 
+  it(`Comprobar nombre correcto'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.nombre).toEqual('Astrid Edith Hernandez Gonzalez');
+  });
+
+  it(`Comprobar carnet correcto'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.carnet).toEqual('201213223');
+  });
+  
+
+
+
 
 });

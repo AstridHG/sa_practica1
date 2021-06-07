@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Practica1';
+  nombre = 'Astrid Edith Hernandez Gonzalez';
+  carnet = '201213223';
 }
