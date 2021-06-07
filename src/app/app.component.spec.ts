@@ -37,6 +37,13 @@ describe('AppComponent', () => {
     const app = fixture.componentInstance;
     expect(app.carnet).toEqual('201213223');
   });
+
+  it(`Comprobar carnet incorrecto'`, () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.carnet).toEqual('123456789');
+  });
+  
   
 
 
